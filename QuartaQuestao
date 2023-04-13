@@ -1,0 +1,12 @@
+let nome;
+let cpf;
+let idade;
+let data_nascimento;
+
+
+
+
+nome = "João da Silva";
+cpf = "123.456.789-00";
+idade = 30;
+data_nascimento = "01/01/1992";
