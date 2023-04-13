@@ -1,0 +1,17 @@
+// solicita o peso em kg e a altura em metros
+let peso = prompt("Digite o seu peso em kg:");
+let altura = prompt("Digite a sua altura em metros:");
+
+// calcula o IMC usando a fórmula IMC = peso / (altura^2)
+let imc = peso / (altura ** 2);
+
+// verifica a condição do IMC e mostra a mensagem correspondente
+if (imc < 18.5) {
+  console.log("Seu IMC é " + imc.toFixed(2) + ", você está abaixo do peso.");
+} else if (imc >= 18.5 && imc < 25) {
+  console.log("Seu IMC é " + imc.toFixed(2) + ", seu peso está normal.");
+} else if (imc >= 25 && imc < 30) {
+  console.log("Seu IMC é " + imc.toFixed(2) + ", você está acima do peso.");
+} else {
+  console.log("Seu IMC é " + imc.toFixed(2) + ", você está obeso.");
+}
