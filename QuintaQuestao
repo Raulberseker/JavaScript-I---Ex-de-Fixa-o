@@ -1,0 +1,23 @@
+let nomeproduto;
+let preco;
+let estoque;
+let validade;
+
+
+
+
+nomeproduto = "Pizza de calabresa Seara";
+preco = 18.40;
+estoque = 32;
+validade = "23/04/2024";
+
+
+let html = "<p>Nome do Produto: " + nomeproduto + "</p>" +
+           "<p>Preço: R$" + preco.toFixed(2) + "</p>" +
+           "<p>Estoque: " + estoque + "</p>" +
+           "<p>Validade: " + validade + "</p>";
+
+
+
+
+document.body.innerHTML = html;
