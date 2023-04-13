@@ -1,0 +1,11 @@
+let salarioAtual = 4.300;
+let percentualReajuste = 8;
+
+
+// Cálculo do valor do novo salário
+let valorReajuste = salarioAtual * (percentualReajuste / 100);
+let novoSalario = salarioAtual + valorReajuste;
+
+
+// Impressão do novo salário
+console.log("O novo salário do funcionário é: R$" + novoSalario)
