@@ -10,3 +10,11 @@ nome = "João da Silva";
 cpf = "123.456.789-00";
 idade = 30;
 data_nascimento = "01/01/1992";
+
+
+
+// Impressão
+console.log("Nome: " + nome);
+console.log("CPF: " + cpf);
+console.log("Idade: " + idade);
+console.log("Data de Nascimento: " + data_nascimento);
